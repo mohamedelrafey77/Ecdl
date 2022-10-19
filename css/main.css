@@ -1,0 +1,288 @@
+body{
+    background-color: #f6f6f6;
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+/* start css to the navbar */
+nav{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 0;
+}
+nav img{
+    width: 50px;
+    height: 50px;
+}
+/* start css to the header section */
+header{
+    background:url("../img/title.jpg") center no-repeat fixed;
+    background-size: cover;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+}
+header .overlay{
+    background-color: rgba(0,0,0,.6);
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding: 25px 0px;
+    margin-top: 0;
+}
+header .row{
+    margin: 70px 0px;
+}
+header h2{
+    color: #fff;
+    font-weight: bold;
+    background-color: #d30303;
+    border: 1px solid #d30303;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 30px;
+    letter-spacing: 1.5px;
+    margin: 50px 0px;
+    text-transform: uppercase;
+    font-family: 'Tajawal', sans-serif;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+/* start css to the book store */
+.book{
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+    padding: 25px 0px;
+    margin-top: 50px;
+    max-width: 100%;
+    overflow: hidden;
+}
+.book .product-slider{
+    max-width: 100%;
+    height: auto;
+    background-color: #fff;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin: 15px 0px;
+}
+.book #mainimg{
+    height: 400px;
+    width: 100%;
+}
+.book .img-slides{
+    display: flex;
+    background-color: #fff;
+    justify-content: space-between;
+}
+.book .img-slides .img-slide{
+    border: 2px solid #d30303;
+    width: calc(100% / 5);
+    cursor: pointer;
+    margin: 10px 5px;
+}
+.book .img-slides .img-slide img{
+    height: 60px;
+    width: 100%;
+}
+.book h3{
+    font-family: 'Tajawal';
+    color: #212121;
+    font-size: 25px;
+    margin: 15px 0px;
+}
+.book h4{
+    color: #d30303;
+    margin: 20px 0px;
+    font-family: 'Tajawal';
+}
+.book li{
+    list-style: none;
+}
+.book li i{
+    color: gold;
+}
+.book p{
+    font-family: 'Tajawal';
+    font-size: 16px;
+    line-height: 30px;
+    margin: 20px 0px;
+}
+.book button{
+    width: 140px;
+    height: 40px;
+    text-align: center;
+    color: #fff;
+    background-color: #d30303;
+    border: 1px solid #d30303;
+    box-sizing: border-box;
+}
+.book button:hover{
+    background-color: transparent;
+    color: #d30303;
+    transition: .2s ease-in-out;
+    -webkit-transition: .2s ease-in-out;
+    -moz-transition: .2s ease-in-out;
+    -ms-transition: .2s ease-in-out;
+    -o-transition: .2s ease-in-out;
+}
+.book table{
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    border-collapse: collapse;
+    border: 1px solid #f6f6f6;
+    font-family: 'Tajawal';
+    margin: 15px 0px;
+}
+.book h5{
+    color: #212121;
+    font-family: 'Tajawal';
+    margin: 15px 0px;
+}
+.book table tr{
+    width: 100%;
+    height: 35px;
+}
+.book tr , td , th{
+    border: 1px solid #f6f6f6 !important;
+}
+.book tr td , 
+.book tr th{
+    padding: 10px;
+}
+.book span{
+    color: #d30303;
+}
+.book h2{
+    color: #d30303;
+    font-size: 20px;
+    margin: 15px 0px;
+}
+.book .text{
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    overflow: hidden;
+    max-width: 100%;
+    background-color: #f6f6f6;
+    border: 1px solid #f6f6f6;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.book .text h3{
+    color: #212121;
+    font-size: 24px;
+    margin: 10px 0px;
+}
+.book .text h2{
+    color: #212121;
+    font-family: 'Tajawal';
+    font-size: 25px;
+}
+.book .text h6{
+    color: #d30303;
+    margin: 15px 0px;
+    font-family: 'Tajawal';
+    font-size: 18px;
+}
+.book .text ul{
+    padding: 0;
+    margin: 0;
+}
+.book .text ul li{
+    font-family: 'Tajawal';
+    color: #333;
+    margin: 10px;
+    list-style-type: decimal;
+    width: 100%;
+    height: 40px;
+    background-color: #fff;
+    padding: 5px;
+    font-size: 16px;
+}
+/*start css to the whatsapp*/
+.whatsapp {
+    background-color: transparent;
+    width: auto;
+    height: 40px;
+    position: fixed;
+    left: 2%;
+    z-index: 9999;
+    margin-top: 5px;
+}
+.whatsapp span{
+    font-size: 11px;
+}
+.whatsapp a{
+    text-decoration: none;
+}
+.whatsapp.usa{
+    bottom: 30px;
+}
+.whatsapp.egy{
+    bottom: 80px;
+}
+/* start css to the footer */
+footer{
+    background-color: #f7f7f7;
+    width: 100%;
+    height: auto;
+    border: 1px solid #f7f7f7;
+    overflow: hidden;
+    margin-top: 50px;
+    padding: 25px 0px;
+    text-align: center;
+}
+footer img{
+    width: 150px;
+    margin: 30px 0px;
+}
+footer h3{
+    font-family: 'Tajawal';
+    margin: 10px 0px;
+    color: #000;
+}
+footer ul{
+    padding: 0;
+    margin: 15px 0px;
+}
+footer ul li{
+    list-style: none;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #d30303;
+    border: 1px solid #d30303;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 5px;
+}
+footer ul li a{
+    color: #fff;
+    line-height: 40px;
+    display: block;
+}
+footer hr{
+    margin: 50px 0px;
+}
+footer span{
+    color: #333;
+    font-size: 16px;
+}
